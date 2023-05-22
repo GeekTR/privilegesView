@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.geektang.privilegesview.widget.VipPrivilegesItemView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/vipPrivilegesItemView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="2dp"
+    android:textColor="#333333"
+    android:textSize="13sp"
+    tools:ignore="MissingDefaultResource"
+    tools:text="发水电费水电费发啥发啥发啥反倒是发啥的房东师傅是否">
+
+    <TextView
+        android:id="@+id/tvAction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="0.5sp"
+        android:drawablePadding="3dp"
+        android:textColor="#8B5C00"
+        android:textSize="12sp"
+        app:drawableEndCompat="@drawable/ic_arrow_right"
+        tools:text="查看保护中的房源" />
+</cn.geektang.privilegesview.widget.VipPrivilegesItemView>
